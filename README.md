@@ -4,9 +4,9 @@ CV Gen is a Python script that generates a Resume based on the Information you p
 
 ## Table of Contents
 
--   [Features](##Features)
--   [Installation](##Installation)
--   [Dependencies](##Dependencies)
+-   [Features](#Features)
+-   [Installation](#Installation)
+-   [Dependencies](#Dependencies)
 
 ## Features
 
