@@ -45,4 +45,4 @@ ipykernel = "*"
 autopep8 = "*"
 ```
 #### Other
-- [templates]/templates/*.docx/
+- /templates/*.docx/
