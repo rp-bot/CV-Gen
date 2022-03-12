@@ -43,7 +43,6 @@ pymongo = "*"
 [dev-packages]
 ipykernel = "*"
 autopep8 = "*"
-
-[templates]
-/templates/*.docx/
 ```
+#### Other
+- [templates]/templates/*.docx/
