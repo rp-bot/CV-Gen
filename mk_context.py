@@ -7,6 +7,13 @@ context = {
     'linkedin_username': "Linkedin Username",
     'github_username': "GitHub Username",
     'introduction': "Introduce yourself: I am a computer science major expecting to graduate...",
+    'relevant_skills': [
+        # FIXME column size needs to be constant| possibly with vertical table
+        {"label": "Certifications", 'contents': "Python 3 , SQL"},
+        {"label": "Certifications", 'contents': "Python 3 , SQL"},
+        {"label": "Systems", 'contents':
+            "Mac OSX, Windows, Linux, FreeBSD"}
+    ],
     'educations': [
         {
             "major": "first something",
