@@ -20,6 +20,20 @@
             "contents": "Mac OSX, Windows, Linux, FreeBSD"
         }
     ],
+    "relevant_courses": [
+        {
+            "label": "Math",
+            "contents": "Calculus , Algebra"
+        },
+        {
+            "label": "Comp Sci",
+            "contents": "Python 3 , SQL, C++"
+        },
+        {
+            "label": "English",
+            "contents": "Composition, Creative Writing"
+        }
+    ],
     "educations": [
         {
             "major": "first something",
