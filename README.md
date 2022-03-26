@@ -23,7 +23,7 @@ CV Gen is a Python program that generates a Résumé based on the Information yo
 
 The program uses a Template and populates it Dynamically.
 
-<style>
+<!-- <style>
         .row {
             display: flex;
             text-align: center;
@@ -55,24 +55,63 @@ The program uses a Template and populates it Dynamically.
             border-top: 0px;
             background-color:rgb(204, 204, 204);
         }
-</style>
+</style> -->
 
-<div class="row">
-        <div class="column">
-            <p class="doc_header">Before</p>
-            <img src="img/Doc_before.png" alt="before.png" class="doc_img">
+<div style="display: flex;
+            text-align: center;
+            padding-left:80px;
+            padding-right:80px;
+            padding-bottom:40px;">
+        <div style="flex: 33.33%;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            border-style: solid;
+            border-width: 1px;">
+            <p style="margin: 0;
+            padding:0;
+            border-style: solid;
+            border-width: 1px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            background-color:rgb(204, 204, 204);">
+            Before
+            </p>
+            <img src="img/Doc_before.png" alt="before.png" style="width: 100%;
+            object-fit:contain;">
         </div>
-        <div class="column">
-            <p class="doc_header">After</p>
-            <img src="img/Doc_after.png" alt="after.png" class="doc_img">
+        <div style="flex: 33.33%;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            border-style: solid;
+            border-width: 1px;">
+            <p style="margin: 0;
+            padding:0;
+            border-style: solid;
+            border-width: 1px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            background-color:rgb(204, 204, 204);">After</p>
+            <img src="img/Doc_after.png" alt="after.png" style="width: 100%;
+            object-fit:contain;">
         </div>
 </div>
 
 Uses JSON as a database
 
-<div class="row">
-    <div class="column">
-        <img src="img/json_code.png" alt="before.png" class="doc_img">
+<div style="display: flex;
+            text-align: center;
+            padding-left:80px;
+            padding-right:80px;
+            padding-bottom:40px;">
+    <div style="flex: 33.33%;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            border-style: solid;
+            border-width: 1px;">
+        <img src="img/json_code.png" alt="before.png" style="width: 100%;
+            object-fit:contain;">
     </div>
 </div>
 
