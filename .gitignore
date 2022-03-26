@@ -1,5 +1,10 @@
 /Pipfile.lock
-/generated_doc.docx
+
 
 /testing.py
 /testingqt.py
+
+README.html
+
+testqt.ui
+testqtout.py
