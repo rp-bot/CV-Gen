@@ -1,5 +1,6 @@
 # CV Gen
-Updating your Résumé should be easy. In this current climate where we are learning new stuff everyday, 
+
+Updating your Résumé should be easy. In this current climate where we are learning new stuff everyday,
 adding your newly learned skills to your CV can get tedious. So I did what every Python developer does, **Spend hours trying to automate the easiest tasks**.
 
 CV Gen is a Python program that generates a Résumé based on the Information you provide.
@@ -9,13 +10,110 @@ CV Gen is a Python program that generates a Résumé based on the Information yo
 -   [Features](#Features)
 -   [Installation](#Installation)
 -   [Dependencies](#Dependencies)
+-   [Data & Privacy](#data--privacy)
 
 ## Features
 
 -   [x] Uses a template to output all the provided information.
 -   [x] Updating is very easy.
--   [ ] _A GUI is under construction for better control_
--   [X] Key/Value stored in a seperate file giving you macro control over the information you provide.
+-   [ ] GUI to add and remove data with ease
+-   [x] Key/Value stored in a seperate file giving you macro control over the information you provide.
+
+### Snippets
+
+The program uses a Template and populates it Dynamically.
+
+<!-- <style>
+        .row {
+            display: flex;
+            text-align: center;
+            padding-left:80px;
+            padding-right:80px;
+            padding-bottom:40px;
+        }
+
+        .column {
+            flex: 33.33%;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        .doc_img {
+            width: 100%;
+            object-fit:contain;
+        }
+
+        .doc_header {
+            margin: 0;
+            padding:0;
+            border-style: solid;
+            border-width: 1px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            background-color:rgb(204, 204, 204);
+        }
+</style> -->
+
+<div style="display: flex;
+            text-align: center;
+            padding-left:80px;
+            padding-right:80px;
+            padding-bottom:40px;">
+        <div style="flex: 33.33%;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            border-style: solid;
+            border-width: 1px;">
+            <p style="margin: 0;
+            padding:0;
+            border-style: solid;
+            border-width: 1px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            background-color:rgb(204, 204, 204);">
+            Before
+            </p>
+            <img src="img/Doc_before.png" alt="before.png" style="width: 100%;
+            object-fit:contain;">
+        </div>
+        <div style="flex: 33.33%;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            border-style: solid;
+            border-width: 1px;">
+            <p style="margin: 0;
+            padding:0;
+            border-style: solid;
+            border-width: 1px;
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            background-color:rgb(204, 204, 204);">After</p>
+            <img src="img/Doc_after.png" alt="after.png" style="width: 100%;
+            object-fit:contain;">
+        </div>
+</div>
+
+Uses JSON as a database
+
+<div style="display: flex;
+            text-align: center;
+            padding-left:80px;
+            padding-right:80px;
+            padding-bottom:40px;">
+    <div style="flex: 33.33%;
+            margin-left: 2.5px;
+            margin-right: 2.5px;
+            border-style: solid;
+            border-width: 1px;">
+        <img src="img/json_code.png" alt="before.png" style="width: 100%;
+            object-fit:contain;">
+    </div>
+</div>
 
 ## Installation
 
@@ -27,25 +125,14 @@ CV Gen is a Python program that generates a Résumé based on the Information yo
 
 -   Python 3.8 +
 -   Latest pip
--   [pipenv](https://github.com/rp-bot/django_checklist#pipenv-installation)
+-   [pipenv](https://github.com/rp-bot/django_checklist#pipenv-installation) - _(link leads to pipenv installation steps)_
 
 #### GUI
 
 -   QT designer
 
-#### Pipfile
-
-```shell
-[packages]
-docxtpl = "*"
-jinja2 = "*"
-pyqt5 = "*"
-pyqt5-tools = "*"
-pymongo = "*"
-
-[dev-packages]
-ipykernel = "*"
-autopep8 = "*"
-```
 #### Other
-- /templates/*.docx/
+
+-   /templates/\*.docx/
+
+## Data & Privacy

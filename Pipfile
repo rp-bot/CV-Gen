@@ -9,6 +9,9 @@ jinja2 = "*"
 pyqt5 = "*"
 pyqt5-tools = "*"
 pymongo = "*"
+docx2pdf = "*"
+aspose-words = "*"
+comtypes = "*"
 
 [dev-packages]
 ipykernel = "*"
