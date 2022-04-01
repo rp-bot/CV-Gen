@@ -1,4 +1,8 @@
-# CV Gen
+# <p align="center">CV Gen</p>
+<p align="center">
+  <img width="640" height="320" src="img/CV GEN REPO ART.png">
+</h1>
+
 
 Updating your Résumé should be easy. In this current climate where we are learning new stuff everyday,
 adding your newly learned skills to your CV can get tedious. So I did what every Python developer does, **Spend hours trying to automate the easiest tasks**.
@@ -7,9 +11,9 @@ CV Gen is a Python program that generates a Résumé based on the Information yo
 
 ## Table of Contents
 
--   [Features](#Features)
--   [Installation](#Installation)
--   [Dependencies](#Dependencies)
+-   [Features](#features)
+-   [Installation](#installation)
+-   [Dependencies](#dependencies)
 -   [Data & Privacy](#data--privacy)
 
 ## Features
