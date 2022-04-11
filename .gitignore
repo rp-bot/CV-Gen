@@ -1,4 +1,3 @@
-/Pipfile.lock
 
 
 /testing.py
@@ -8,3 +7,5 @@ README.html
 
 testqt.ui
 testqtout.py
+
+/learn
