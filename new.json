@@ -1,0 +1,73 @@
+{
+    "name": "dfb s",
+    "position": "dfbadfsb",
+    "location": "dfbadfb",
+    "email_address": "dfabadfb",
+    "linkedin_username": "fdsbdfb",
+    "github_username": "dfbdgfbfdaseb",
+    "introduction": "Introduce yourself: I am a computer science major expecting to graduate...",
+    "relevant_skills": [
+        {
+            "label": "dfbdfsb",
+            "contents": "dfbdasfbadsfb"
+        }
+    ],
+    "relevant_courses": [
+        {
+            "label": "Math",
+            "contents": "Calculus , Algebra"
+        },
+        {
+            "label": "Comp Sci",
+            "contents": "Python 3 , SQL, C++"
+        },
+        {
+            "label": "English",
+            "contents": "Composition, Creative Writing"
+        },
+        {
+            "label": "dfbasdfb",
+            "contents": "fdsbasdefn"
+        }
+    ],
+    "educations": [
+        {
+            "major": "first something",
+            "grad_date": "2020",
+            "school_name": "some school",
+            "school_loc": "somewhere",
+            "gpa": 5
+        },
+        {
+            "major": "second something",
+            "grad_date": "2022",
+            "school_name": "some other school",
+            "school_loc": "somewhere else",
+            "gpa": 4
+        },
+        {
+            "major": "dfbnadfbn",
+            "grad_date": "fdbafdsbadfb",
+            "school_name": "fdsbadfb",
+            "school_loc": "dfbnadsfb",
+            "gpa": "dfbasdfb"
+        }
+    ],
+    "work_experiences": [
+        {
+            "title": "Software Developer Intern",
+            "start_end": "2022-present",
+            "org_name": "something inc",
+            "description": [
+                "we did this and that",
+                "and then we did something else"
+            ]
+        },
+        {
+            "title": "fsdbasdfb",
+            "start_end": "fsdb",
+            "org_name": "fsdbasdfb",
+            "description": "adfbadfba"
+        }
+    ]
+}
