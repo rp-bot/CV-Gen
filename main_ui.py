@@ -36,36 +36,49 @@ class ResumeDesign(qtw.QMainWindow, Ui_MainWindow):
         TEMP_DATA["github_username"] = self.txt_git.text()
         # temp_data["introduction"] = self.
 
-        # There is an AttributeError TODO
+        # There is an AttributeError
         for row in range(self.tbl_skills.rowCount()):
-            TEMP_DATA["relevant_skills"].append({
-                "label": str(self.tbl_skills.item(row, 0).text()),
-                "contents": str(self.tbl_skills.item(row, 1).text())
-            })
+            try:
+                TEMP_DATA["relevant_skills"].append({
+                    "label": str(self.tbl_skills.item(row, 0).text()),
+                    "contents": str(self.tbl_skills.item(row, 1).text())
+                })
+            except AttributeError:
+                pass
 
         for row in range(self.tbl_courses.rowCount()):
-            TEMP_DATA["relevant_courses"].append({
-                "label": str(self.tbl_courses.item(row, 0).text()),
-                "contents": str(self.tbl_courses.item(row, 1).text())
-            })
+            try:
+                TEMP_DATA["relevant_courses"].append({
+                    "label": str(self.tbl_courses.item(row, 0).text()),
+                    "contents": str(self.tbl_courses.item(row, 1).text())
+                })
+            except AttributeError:
+                pass
 
         for row in range(self.tbl_edu.rowCount()):
-            TEMP_DATA["educations"].append({
-                "major": str(self.tbl_edu.item(row, 0).text()),
-                "grad_date": str(self.tbl_edu.item(row, 1).text()),
-                "school_name": str(self.tbl_edu.item(row, 2).text()),
-                "school_loc": str(self.tbl_edu.item(row, 3).text()),
-                "gpa": str(self.tbl_edu.item(row, 4).text())
-            })
+            try:
+                TEMP_DATA["educations"].append({
+                    "major": str(self.tbl_edu.item(row, 0).text()),
+                    "grad_date": str(self.tbl_edu.item(row, 1).text()),
+                    "school_name": str(self.tbl_edu.item(row, 2).text()),
+                    "school_loc": str(self.tbl_edu.item(row, 3).text()),
+                    "gpa": str(self.tbl_edu.item(row, 4).text())
+                })
+            except AttributeError:
+                pass
 
         for row in range(self.tbl_jobs.rowCount()):
-            TEMP_DATA["work_experiences"].append({
-                "title": str(self.tbl_jobs.item(row, 0).text()),
-                "start_end": str(self.tbl_jobs.item(row, 1).text()),
-                "org_name": str(self.tbl_jobs.item(row, 2).text()),
-                # TODO make this work/ better
-                # "description": str(self.tbl_jobs.item(row, 3).text()),
-            })
+            try:
+                TEMP_DATA["work_experiences"].append({
+                    "title": str(self.tbl_jobs.item(row, 0).text()),
+                    "start_end": str(self.tbl_jobs.item(row, 1).text()),
+                    "org_name": str(self.tbl_jobs.item(row, 2).text()),
+                    # TODO make this work/ better
+                    # "description": str(self.tbl_jobs.item(row, 3).text()),
+                })
+            except AttributeError:
+                pass
+
         return TEMP_DATA
 
     def save(self):

@@ -1,17 +1,12 @@
 {
-    "name": "dfb s",
-    "position": "dfbadfsb",
-    "location": "dfbadfb",
-    "email_address": "dfabadfb",
-    "linkedin_username": "fdsbdfb",
-    "github_username": "dfbdgfbfdaseb",
+    "name": "Pratham",
+    "position": "Intern",
+    "location": "Indianapolis/ remote",
+    "email_address": "legacy.business18@gmail.com",
+    "linkedin_username": "pratham-vadhulas",
+    "github_username": "rp-bot",
     "introduction": "Introduce yourself: I am a computer science major expecting to graduate...",
-    "relevant_skills": [
-        {
-            "label": "dfbdfsb",
-            "contents": "dfbdasfbadsfb"
-        }
-    ],
+    "relevant_skills": [],
     "relevant_courses": [
         {
             "label": "Math",
@@ -24,10 +19,6 @@
         {
             "label": "English",
             "contents": "Composition, Creative Writing"
-        },
-        {
-            "label": "dfbasdfb",
-            "contents": "fdsbasdefn"
         }
     ],
     "educations": [
@@ -44,13 +35,6 @@
             "school_name": "some other school",
             "school_loc": "somewhere else",
             "gpa": 4
-        },
-        {
-            "major": "dfbnadfbn",
-            "grad_date": "fdbafdsbadfb",
-            "school_name": "fdsbadfb",
-            "school_loc": "dfbnadsfb",
-            "gpa": "dfbasdfb"
         }
     ],
     "work_experiences": [
@@ -62,12 +46,6 @@
                 "we did this and that",
                 "and then we did something else"
             ]
-        },
-        {
-            "title": "fsdbasdfb",
-            "start_end": "fsdb",
-            "org_name": "fsdbasdfb",
-            "description": "adfbadfba"
         }
     ]
 }
