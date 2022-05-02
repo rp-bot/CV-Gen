@@ -31,7 +31,7 @@ The program uses a Template and populates it Dynamically.
 
 #### Template - Output
 
-<table>
+<table align="center">
   <tr>
     <th>TEMPLATE</th>
     <th>OUTPUT</th>
