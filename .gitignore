@@ -9,3 +9,5 @@ testqt.ui
 testqtout.py
 
 /learn
+
+Pipfile.lock
