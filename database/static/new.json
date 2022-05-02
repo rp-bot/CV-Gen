@@ -1,0 +1,37 @@
+{
+    "name": "Pratham",
+    "position": "Intern",
+    "location": "Indiana",
+    "email_address": "legacy.business18@gmail.com",
+    "linkedin_username": "pratham-vadhulas",
+    "github_username": "rp-bot",
+    "introduction": "",
+    "relevant_skills": [
+        {
+            "label": "Languages",
+            "contents": "Python, C++, Java, Javascript"
+        }
+    ],
+    "relevant_courses": [
+        {
+            "label": "Math",
+            "contents": "Calculus"
+        }
+    ],
+    "educations": [
+        {
+            "major": "IvyTech",
+            "grad_date": "Indianapolis",
+            "school_name": "Computer Science",
+            "school_loc": "3.8",
+            "gpa": "2019 - 2022"
+        }
+    ],
+    "work_experiences": [
+        {
+            "title": "Intern",
+            "start_end": "VaiHub,inc",
+            "org_name": "2022 - present"
+        }
+    ]
+}

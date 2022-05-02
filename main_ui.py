@@ -1,8 +1,8 @@
 import sys
 from main_ui_lib import Ui_MainWindow
 
-import manage_DB as db
-from db_template import template_dict as TEMP_DATA
+import database.manage_DB as db
+from database.static.db_template import template_dict as TEMP_DATA
 from output import docx_output
 
 from PyQt5 import QtCore as qtc
@@ -23,10 +23,6 @@ class ResumeDesign(qtw.QMainWindow, Ui_MainWindow):
 
         self.btn_make.clicked.connect(self.make_resume)
 
-    def change_text_style(self, txt_object):
-        txt_object.setFont(False)
-        pass
-
     def make_temp_data(self):
         TEMP_DATA["name"] = self.txt_name.text()
         TEMP_DATA["position"] = self.txt_position.text()
@@ -34,6 +30,7 @@ class ResumeDesign(qtw.QMainWindow, Ui_MainWindow):
         TEMP_DATA["email_address"] = self.txt_email.text()
         TEMP_DATA["linkedin_username"] = self.txt_linkd.text()
         TEMP_DATA["github_username"] = self.txt_git.text()
+        TEMP_DATA["introduction"] = self.txt_intro.text()
         # temp_data["introduction"] = self.
 
         # There is an AttributeError

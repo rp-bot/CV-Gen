@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1287</width>
-    <height>824</height>
+    <width>1441</width>
+    <height>1135</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -174,13 +174,23 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>240</y>
+      <y>490</y>
       <width>711</width>
       <height>103</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="skills">
-     <item row="0" column="0">
+     <item row="1" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
+      <widget class="QToolButton" name="toolbtn_skills">
+       <property name="toolTip">
+        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add or Remove rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string notr="true">...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
       <widget class="QTableWidget" name="tbl_skills">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Enter Skills &amp;amp; Strengths in a comma seperated list&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Python, SQL, MongoDB&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -189,8 +199,17 @@
         <enum>Qt::SolidLine</enum>
        </property>
        <property name="rowCount">
-        <number>1</number>
+        <number>10</number>
        </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
        <row/>
        <column>
         <property name="text">
@@ -204,13 +223,10 @@
        </column>
       </widget>
      </item>
-     <item row="0" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
-      <widget class="QToolButton" name="toolbtn_skills">
-       <property name="toolTip">
-        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add or Remove rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_skills">
        <property name="text">
-        <string notr="true">...</string>
+        <string>Strengths &amp; Skills</string>
        </property>
       </widget>
      </item>
@@ -233,13 +249,26 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>380</y>
+      <y>630</y>
       <width>711</width>
       <height>103</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="courses">
-     <item row="0" column="0">
+     <item row="1" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
+      <widget class="QToolButton" name="toolbtn_courses">
+       <property name="toolTip">
+        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add or Remove rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>d</string>
+       </property>
+       <property name="text">
+        <string notr="true">...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
       <widget class="QTableWidget" name="tbl_courses">
        <property name="toolTip">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Enter Courses in a comma seperated list&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;Calculus, Calculus 2, Linear Algebra&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -263,8 +292,17 @@
         <enum>Qt::SolidLine</enum>
        </property>
        <property name="rowCount">
-        <number>1</number>
+        <number>10</number>
        </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
        <row/>
        <column>
         <property name="text">
@@ -278,16 +316,10 @@
        </column>
       </widget>
      </item>
-     <item row="0" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
-      <widget class="QToolButton" name="toolbtn_courses">
-       <property name="toolTip">
-        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add or Remove rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="whatsThis">
-        <string>d</string>
-       </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_courses">
        <property name="text">
-        <string notr="true">...</string>
+        <string>Relevant Courses</string>
        </property>
       </widget>
      </item>
@@ -297,13 +329,13 @@
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>520</y>
+      <y>770</y>
       <width>711</width>
       <height>103</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="education">
-     <item row="0" column="0">
+     <item row="1" column="0">
       <widget class="QTableWidget" name="tbl_edu">
        <property name="toolTip">
         <string/>
@@ -327,8 +359,12 @@
         <enum>Qt::SolidLine</enum>
        </property>
        <property name="rowCount">
-        <number>1</number>
+        <number>5</number>
        </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
        <row/>
        <column>
         <property name="text">
@@ -357,7 +393,7 @@
        </column>
       </widget>
      </item>
-     <item row="0" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
+     <item row="1" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
       <widget class="QToolButton" name="toolbtn_edu">
        <property name="toolTip">
         <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add or Remove rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -370,19 +406,39 @@
        </property>
       </widget>
      </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_edu">
+       <property name="text">
+        <string>Education</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
    <widget class="QWidget" name="gridLayoutWidget_5">
     <property name="geometry">
      <rect>
       <x>40</x>
-      <y>660</y>
+      <y>910</y>
       <width>711</width>
       <height>103</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="job_history">
-     <item row="0" column="0">
+     <item row="1" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
+      <widget class="QToolButton" name="toolbtn_jobs">
+       <property name="toolTip">
+        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add or Remove rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="whatsThis">
+        <string>d</string>
+       </property>
+       <property name="text">
+        <string notr="true">...</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
       <widget class="QTableWidget" name="tbl_jobs">
        <property name="toolTip">
         <string/>
@@ -406,8 +462,17 @@
         <enum>Qt::SolidLine</enum>
        </property>
        <property name="rowCount">
-        <number>1</number>
+        <number>10</number>
        </property>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
+       <row/>
        <row/>
        <column>
         <property name="text">
@@ -431,16 +496,36 @@
        </column>
       </widget>
      </item>
-     <item row="0" column="1" alignment="Qt::AlignLeft|Qt::AlignTop">
-      <widget class="QToolButton" name="toolbtn_jobs">
-       <property name="toolTip">
-        <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add or Remove rows&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-       </property>
-       <property name="whatsThis">
-        <string>d</string>
-       </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_jobs">
        <property name="text">
-        <string notr="true">...</string>
+        <string>Job History</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>681</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="Introduction">
+     <item>
+      <widget class="QLabel" name="lbl_intro">
+       <property name="text">
+        <string>Introduction</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="txt_intro">
+       <property name="placeholderText">
+        <string>I am Computer Science Major willing to work hard and learn...</string>
        </property>
       </widget>
      </item>
@@ -452,7 +537,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1287</width>
+     <width>1441</width>
      <height>22</height>
     </rect>
    </property>
