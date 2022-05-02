@@ -30,7 +30,7 @@ class ResumeDesign(qtw.QMainWindow, Ui_MainWindow):
         TEMP_DATA["email_address"] = self.txt_email.text()
         TEMP_DATA["linkedin_username"] = self.txt_linkd.text()
         TEMP_DATA["github_username"] = self.txt_git.text()
-        TEMP_DATA["introduction"] = self.txt_intro.text()
+        TEMP_DATA["introduction"] = self.txt_intro.toPlainText()
         # temp_data["introduction"] = self.
 
         # There is an AttributeError

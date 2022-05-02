@@ -5,13 +5,13 @@ c = conn.cursor()
 
 
 def read_json(filename):
-    with open(f"./static/{filename}.json", 'r') as f:
+    with open(f"database/static/{filename}.json", 'r') as f:
         data = json.load(f)
         return data
 
 
 def write_json(filename, data_set):
-    with open(f"./static/{filename}.json", 'w') as f:
+    with open(f"database/static/{filename}.json", 'w') as f:
         json.dump(data_set, f, indent=4)
 
 

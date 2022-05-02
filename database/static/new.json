@@ -1,37 +1,13 @@
 {
-    "name": "Pratham",
-    "position": "Intern",
-    "location": "Indiana",
-    "email_address": "legacy.business18@gmail.com",
-    "linkedin_username": "pratham-vadhulas",
-    "github_username": "rp-bot",
-    "introduction": "",
-    "relevant_skills": [
-        {
-            "label": "Languages",
-            "contents": "Python, C++, Java, Javascript"
-        }
-    ],
-    "relevant_courses": [
-        {
-            "label": "Math",
-            "contents": "Calculus"
-        }
-    ],
-    "educations": [
-        {
-            "major": "IvyTech",
-            "grad_date": "Indianapolis",
-            "school_name": "Computer Science",
-            "school_loc": "3.8",
-            "gpa": "2019 - 2022"
-        }
-    ],
-    "work_experiences": [
-        {
-            "title": "Intern",
-            "start_end": "VaiHub,inc",
-            "org_name": "2022 - present"
-        }
-    ]
+    "name": "EXAMPLE",
+    "position": "",
+    "location": "",
+    "email_address": "",
+    "linkedin_username": "",
+    "github_username": "",
+    "introduction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "relevant_skills": [],
+    "relevant_courses": [],
+    "educations": [],
+    "work_experiences": []
 }

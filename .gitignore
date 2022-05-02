@@ -1,4 +1,6 @@
 /__pycache__
+/database/__pycache__
+/database/static/__pycache__
 
 /testing.py
 /testingqt.py
@@ -11,3 +13,5 @@ testqtout.py
 /learn
 
 Pipfile.lock
+
+*.ui

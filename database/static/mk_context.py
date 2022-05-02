@@ -1,4 +1,5 @@
-import json
+import __init__
+import manage_DB
 context = {
     'name': "",
     'position': "",
@@ -16,9 +17,5 @@ context = {
     'work_experiences': [
     ]
 }
-# with open('newdataset.json', "r") as f:
-#     data = json.load(f)
-#     print(data["name"])
 
-with open('base_context.json', "w") as f:
-    json.dump(context, f, indent=4)
+manage_DB.write_json("base_context", context)
