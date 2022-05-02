@@ -28,22 +28,21 @@ CV Gen is a Python program that generates a Résumé based on the Information yo
 The program uses a Template and populates it Dynamically.
 
 <!-- Put images in table -->
-<div>
-        <div>
-            <p>
-            Before
-            </p>
-            <img src="img/Doc_before.png" alt="before.png" style="width: 100%;
-            object-fit:contain;">
-        </div>
-        <div>
-            <p>After</p>
-            <img src="img/Doc_after.png" alt="after.png" style="width: 100%;
-            object-fit:contain;">
-        </div>
-</div>
 
-Uses JSON
+#### Template - Output
+
+<table>
+  <tr>
+    <th>TEMPLATE</th>
+    <th>OUTPUT</th>
+  </tr>
+  <tr>
+    <td><img width="350" src="img/Doc_before.png"></td>
+    <td><img width="350" src="img/Doc_after.png"></td>
+  </tr>
+</table>
+
+#### Uses JSON
 
 <div>
     <div>
