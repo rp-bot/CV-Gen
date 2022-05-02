@@ -1,6 +1,7 @@
 /__pycache__
 /database/__pycache__
 /database/static/__pycache__
+/database/DB
 
 /testing.py
 /testingqt.py
